@@ -1,4 +1,6 @@
 
+# https://github.com/shigeyukey/shigeAPI
+
 from aqt import mw
 
 class ShigeAPI():
