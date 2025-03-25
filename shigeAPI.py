@@ -3,6 +3,24 @@
 
 from .api_class import ShigeAPI
 
+### How to use ###
+
+# set
+# from .shigeAPI import shigeAPI
+# shigeAPI.my_addon_name.add(my_addon_func)
+
+# use
+# from .shigeAPI import shigeAPI
+# config = mw.addonManager.getConfig(__name__)
+# if config.get("run_my_addon", True):
+#     shigeAPI.my_addon_name.run()
+
+
+### AnkiRestart ###
+# https://ankiweb.net/shared/info/237169833
+# Restart Anki now.
+restart_anki = ShigeAPI("restart_anki")
+
 ### BreakTimer ###
 # https://ankiweb.net/shared/info/174058935
 # Start the break timer now.
