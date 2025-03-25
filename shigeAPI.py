@@ -3,6 +3,8 @@
 
 from .api_class import ShigeAPI
 
+# 🟢Lastupdate: 2025-03-25
+
 ### How to use ###
 
 # set
