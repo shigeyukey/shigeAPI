@@ -16,3 +16,6 @@ class ShigeAPI():
 
     def add(self, func):
         setattr(mw, self.attr_name, func)
+
+    def check(self):
+        return hasattr(mw, self.attr_name) and callable(getattr(mw, self.attr_name, None))
