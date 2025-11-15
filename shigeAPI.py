@@ -34,4 +34,4 @@ start_break_timer = ShigeAPI("start_break_timer")
 # https://ankiweb.net/shared/info/175794613
 # Open the Leaderboard window.
 open_leaderboard = ShigeAPI("open_leaderboard")
-
+leaderboard_data = ShigeAPI("leaderboard_data")
