@@ -16,6 +16,16 @@ class ShigeAPI():
         except Exception as e:
             print(f"shigeAPI {self.attr_name} Error: {e}")
 
+    def call(self, *args, **kwargs):
+        try:
+            if hasattr(mw, self.attr_name):
+                mw_addon_func = getattr(mw, self.attr_name)
+                if callable(mw_addon_func):
+                    return mw_addon_func(*args, **kwargs)
+        except Exception as e:
+            print(f"shigeAPI {self.attr_name} Error: {e}")
+        return None
+
     def add(self, func):
         setattr(mw, self.attr_name, func)
 
