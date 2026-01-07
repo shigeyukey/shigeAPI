@@ -35,3 +35,8 @@ start_break_timer = ShigeAPI("start_break_timer")
 # Open the Leaderboard window.
 open_leaderboard = ShigeAPI("open_leaderboard")
 leaderboard_data = ShigeAPI("leaderboard_data")
+
+### Python Venv Generator
+# get venv python exe path
+get_venv_python_exe_path = ShigeAPI("get_venv_python_exe_path")
+
