@@ -5,7 +5,7 @@
 
 from .api_class import ShigeAPI
 
-# 🟢Lastupdate: 2025-11-15
+# 🟢Lastupdate: 2026-01-08
 
 ### How to use ###
 
