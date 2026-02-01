@@ -36,7 +36,7 @@ start_break_timer = ShigeAPI("start_break_timer")
 open_leaderboard = ShigeAPI("open_leaderboard")
 leaderboard_data = ShigeAPI("leaderboard_data")
 
-### Python Venv Generator
+### Python Venv Generator (beta)
 # pyVenvGen_
 # get venv python exe path| func(venv_addon_name)
 pyVenvGen_get_venv_python_exe_path = ShigeAPI("pyVenvGen_get_venv_python_exe_path")
