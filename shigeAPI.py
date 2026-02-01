@@ -37,6 +37,11 @@ open_leaderboard = ShigeAPI("open_leaderboard")
 leaderboard_data = ShigeAPI("leaderboard_data")
 
 ### Python Venv Generator
-# get venv python exe path
-get_venv_python_exe_path = ShigeAPI("get_venv_python_exe_path")
+# pyVenvGen_
+# get venv python exe path| func(venv_addon_name)
+pyVenvGen_get_venv_python_exe_path = ShigeAPI("pyVenvGen_get_venv_python_exe_path")
+# make venv| func(venv_addon_name)
+pyVenvGen_on_make_new_venv = ShigeAPI("pyVenvGen_on_make_new_venv")
+# delete venv| func(venv_addon_name)
+pyVenvGen_on_delete_venv = ShigeAPI("pyVenvGen_on_delete_venv")
 
