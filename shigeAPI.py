@@ -36,12 +36,12 @@ start_break_timer = ShigeAPI("start_break_timer")
 open_leaderboard = ShigeAPI("open_leaderboard")
 leaderboard_data = ShigeAPI("leaderboard_data")
 
-### Python Venv Generator (beta)
-# pyVenvGen_
-# get venv python exe path| func(venv_addon_name)
-pyVenvGen_get_venv_python_exe_path = ShigeAPI("pyVenvGen_get_venv_python_exe_path")
-# make venv| func(venv_addon_name)
-pyVenvGen_on_make_new_venv = ShigeAPI("pyVenvGen_on_make_new_venv")
-# delete venv| func(venv_addon_name)
-pyVenvGen_on_delete_venv = ShigeAPI("pyVenvGen_on_delete_venv")
+### Python Venv Generator (beta) not used yet
+# # pyVenvGen_
+# # get venv python exe path| func(venv_addon_name)
+# pyVenvGen_get_venv_python_exe_path = ShigeAPI("pyVenvGen_get_venv_python_exe_path")
+# # make venv| func(venv_addon_name)
+# pyVenvGen_on_make_new_venv = ShigeAPI("pyVenvGen_on_make_new_venv")
+# # delete venv| func(venv_addon_name)
+# pyVenvGen_on_delete_venv = ShigeAPI("pyVenvGen_on_delete_venv")
 
